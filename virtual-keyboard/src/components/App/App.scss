@@ -1,0 +1,21 @@
+.virtual-keyboard {
+  max-width: 900px;
+  padding: 30px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.5);
+
+  &__textarea {
+    margin: 0 0 20px;
+  }
+
+  &__keyboard {
+    margin: 0 0 10px;
+  }
+
+  &__text-block {
+
+    & p {
+      text-align: center;
+      margin: 0 0 5px;
+    }
+  }
+}

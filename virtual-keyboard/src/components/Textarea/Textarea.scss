@@ -1,0 +1,16 @@
+.textarea {
+  width: 100%;
+  border: 1px solid rgb(0, 0, 0, 0.5);
+  resize: none;
+  height: 100px;
+  padding: 0 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.5s ease 0s;
+  background-color: transparent;
+
+  &:focus {
+    box-shadow: 0 0 15px #515353;
+  }
+}

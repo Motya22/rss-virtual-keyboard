@@ -28,7 +28,7 @@ const plugins = [
 
 module.exports = {
   mode,
-  devtool: mode ? 'source-map' : false,
+  devtool: mode === 'development' ? 'inline-source-map' : false,
   entry: './src/index.js',
   output: {
     filename: '[name].[contenthash].js',
